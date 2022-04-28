@@ -1,0 +1,17 @@
+---
+title: "Wells_Activity_11a"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load-libraries}
+library(tidyverse)
+library(RColorBrewer)
+```
+
+```{r load-college}
+data <- read_csv("data/college.csv")
+```
